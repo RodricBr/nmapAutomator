@@ -339,7 +339,7 @@ portScan() {
 
 # Nmap version and default script scan on found ports
 scriptScan() {
-        printf "${GREEN}---------------------Starting Script Scan-----------------------\n"
+        printf "${GREEN}---------------------Starting Script Scan----------------------\n"
         printf "${NC}\n"
 
         if ! $REMOTE; then
